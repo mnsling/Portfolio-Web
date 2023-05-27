@@ -1,0 +1,24 @@
+//functionality of the anchor buttons
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  section.scrollIntoView({ behavior: 'smooth' });
+}
+
+function showInfo1() {
+  document.getElementById("info1").style.display = "block";
+  document.getElementById("info2").style.display = "none";
+  document.getElementById("info3").style.display = "none";
+}
+
+function showInfo2() {
+  document.getElementById("info1").style.display = "none";
+  document.getElementById("info2").style.display = "block";
+  document.getElementById("info3").style.display = "none";
+}
+
+function showInfo3() {
+  document.getElementById("info1").style.display = "none";
+  document.getElementById("info2").style.display = "none";
+  document.getElementById("info3").style.display = "block";
+}
+
