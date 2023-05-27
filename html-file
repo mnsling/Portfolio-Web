@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!--links the style and functionality of the website-->
+    <link href="NicklausDes.css" rel="stylesheet"/>
+    <script src="NicklausFunc.js"></script>
+
+    <!--the title of the site-->
+    <title>Nick.AI</title>
+
+  </head>
+  <body>
+
+    <!--anchor options-->
+    <div class="button-container">
+      <button class="butt1" id="text-animation" onclick="scrollToSection('home')"><b>/ home</b></button>
+      <button class="butt2" id="text-animation" onclick="scrollToSection('about-me')"><b>/ about-me</b></button>
+      <button class="butt3" id="text-animation" onclick="scrollToSection('my-education')"><b>/ my-education</b></button>
+      <button class="butt4" id="text-animation" onclick="scrollToSection('my-creations')"><b>/ software-creations</b></button>
+    </div>
+
+    <!--clickable logos that will direct you to the website-->
+      
+    <a href="https://github.com/mnsling" target="_blank">
+      <img class="logo" id="logo1" src="C:\Users\GURL\Desktop\Do not delete!\Portfolio Website\Icons\github.png">
+    </a>
+    
+    <a href="https://mail.google.com/mail/u/0/#chat/dm/j9kb0EAAAAE" target="_blank">
+      <img class="logo" id="logo2" src="C:\Users\GURL\Desktop\Do not delete!\Portfolio Website\Icons\mail.png">
+    </a>
+
+    <!--home page-->
+    <span class="loader"></span>
+    <section id="home"></section>
+    <div class="main">
+    <h1>hi, <span style="color:#63fcdf;"><b>mike</b></span> here.</h1>
+    <h3 id="text-animation"><span style="color:#818CA9;">I create stuff sometimes.</span></h3>
+    </div>
+
+    <p class="par" id="text-animation"><span style="color:#818CA9;">I'm an aspiring website developer and artist
+      based in Davao 
+      City, Philippines. I have a great interest in art such as
+      (photography, videography, graphic design and such). I have 
+      come to appreciate the beauty of artificial intelligence, human-
+      computer interactions, and everything in between.</span>
+    </p>
+
+    <!--button effect-->
+     <button class="hi" id="text-animation"><b>Say hi!</b></button>
+
+
+    <!--new section-->
+
+
+    <!--aboutme page-->
+    <section id="about-me"></section>
+     <h2 id="text-animation"><b>/</b> about-meㅤ<span style="color:#0F2342">━━━━━━━━━━</span></h2>
+
+     <p class="par" id="text-animation">I am currently a 3rd Year Computer Science Student at 
+      <a href="https://www.addu.edu.ph/" target="_blank"
+      style="color:#63fcdf;"><b>Ateneo,
+      de Davao University</b></a></span>, trying to master the arts of web designing.
+      At the same time, I am also learning the ways of graphic designing.</p>
+
+      <p class="par" id="text-animation">Programming Languages that I have been working with:</p>
+
+    <!--Bullet form-->
+    <div class="plang">
+      <ul>
+        <li class="bullet1" id="text-animation">HTML</li>
+        <li class="bullet1" id="text-animation">CSSㅤ</li>
+        <li class="bullet1" id="text-animation">JAVA</li>
+      </ul>
+    </div>
+    <div class="plang2">
+      <ul>
+        <li class="bullet1" id="text-animation">Linux</li>
+        <li class="bullet1" id="text-animation">Python</li>
+        <li class="bullet1" id="text-animation">Javascript</li>
+      </ul>
+    </div>
+
+    <!--inserting a photo of myself-->
+    <img class="me" src="C:\Users\GURL\Desktop\Do not delete!\Portfolio Website\nick.jpg">
+
+    <p class="par" id="text-animation">Outside of work, I'm interested in learning graphic 
+      design by watching tutorials in TikTok or YouTube. I also play a 
+      wide variety of video games such as FPS, Sports, Adventure, and 
+      Simulation. Besides PC games, my hobbies are sketching, playing 
+      badminton, and travelling. </p>
+
+
+
+    <!--new section-->
+
+
+
+    <!--eductaion page-->
+    <section id="my-education">
+      <h2 id="text-animation"><b>/</b> my-educationㅤ<span style="color:#0F2342">━━━━━━━━</span></h2>
+    </section>
+
+    <!--my school buttons-->
+    <div class="educ">
+      <button class="school" onclick="showInfo1()"><b>PASD</b></button>
+    </div>
+    <div class="educ">
+      <button class="school" onclick="showInfo2()"><b>MCM</b></button>
+    </div> 
+    <div class="educ">
+      <button class="school" onclick="showInfo3()"><b>ADDU</b></button>
+    </div>  
+
+    <!--shows information when clicked-->
+  <div class="last">
+    <div id="info1" style="display: block;">
+      <div class="text1"><b>Student <span style="color:#63fcdf;">@Philippine Academy of Sakya</span></b></div>
+      <div class="year1">2006 - 2018 (Kinder - Junior High)</div>
+      <div class="acc1">
+        <ul>
+          <li class="bullet2" id="text-animation">ㅤGot to be a part of a Soccer Club during my elementary days and later on, a part ㅤ   of a Badminton Club in my final year.</li>
+          <li class="bullet2" id="text-animation">ㅤBecame champion in poster making competitions in multiple occassion such as ㅤ   Buwan ng Wika, Scico-Math Month, Nutrition Month and many more.</li>
+          <li class="bullet2" id="text-animation">ㅤExcelled in my Academics where I got to a part of the honor roll in my High School ㅤ   Years including my Final Year.</li>
+          <li class="bullet2" id="text-animation">ㅤDesigned and Organized a 4 hour event with me being in charge of Technicals, ㅤ   and Creatives.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="info2" style="display: none;">
+      <div class="text2"><b>ABM Student <span style="color:#63fcdf;">@Malayan Colleges Mindanao</span></b></div>
+      <div class="year2">2018 - 2020 (Senior High)</div>
+      <div class="acc2">
+        <ul>
+          <li class="bullet3" id="text-animation">ㅤHandpicked by the teachers of MCM to be the representative for AdDU ㅤ   Siklabs Poster Making Competition for ABM Students.</li>
+          <li class="bullet3" id="text-animation">ㅤGot to be a part of the Young Entrepreneurs Club and also the School ㅤ   Paper Layout Design as a Layout Artist.</li>
+          <li class="bullet3" id="text-animation">ㅤGraduated Senior High with Honors.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="info3" style="display: none;">
+      <div class="text3"><b>Computer Science Major <span style="color:#63fcdf;">@Ateneo de Davao University</span></b></div>
+      <div class="year3">2020 - Present (College)</div>
+      <div class="acc3">
+        <ul>
+          <li class="bullet4" id="text-animation">ㅤJoin a committee called PixelShot where I got to work as a graphic designer and <br>ㅤ   designed pubmats, posters and even displayed photo frames in facebook.</li>
+          <li class="bullet4" id="text-animation">ㅤGained coding knowledge on different programming languages such as python, html, <br>ㅤ   css, javascript, linux and java.</li>
+          <li class="bullet4" id="text-animation">ㅤCreated a working traffic light sensor with a timer where it will signal a stop sign when <br>ㅤ   a person crosses the road using and Arduino and C# code.</li>
+          <li class="bullet4" id="text-animation">ㅤPart of the TWG (technical working group) during IT Week.</li>
+          <li class="bullet4" id="text-animation">ㅤDeans Lister for Business Management(1st Yr.), shifted to Computer Science. Presidents <br>ㅤ   Lister for Computer Science (2nd Year).</li>
+        </ul>
+      </div>
+    </div> 
+  </div>
+
+      <a href="https://www.instagram.com/lingnicklaus/" target="_blank" span style="color: #63fcdf;">
+        <img class="socials" id="ig" src="C:\Users\GURL\Desktop\Do not delete!\Portfolio Website\Icons\instagram.png">
+      </a>
+
+      <a href="https://www.facebook.com/nicklaus.ling" target="_blank" span style="color: #63fcdf;">
+        <img class="socials" id="fb" src="C:\Users\GURL\Desktop\Do not delete!\Portfolio Website\Icons\facebook.png">
+      </a>
+
+      <a href="https://twitter.com/nicklausling" target="_blank" span style="color: #63fcdf;">
+        <img class="socials" id="tw" src="C:\Users\GURL\Desktop\Do not delete!\Portfolio Website\Icons\twitter.png">
+      </a>
+
+      <div class="foot">
+      <p span style="color: #cad4f4">Built and Designed by Nicklaus Ling<br> All rights reserved.© </p>
+    </div>
+
+
+
+    <!--new section-->
+
+
+    <!--my-creation page-->
+    <section id="my-creations">
+      <h2 id="text-animation"><b>/</b> software-creationsㅤ<span style="color:#0F2342">━━━━━━</span></h2>
+    </section>
+
+    <!--card #1-->
+    <article class="card">
+      <div class="temporary_text">ㅤ05/20/23</div>
+
+    <div class="card_content">
+        <span class="card_title">Simple Applications</span>
+            <span class="card_subtitle"><b>Python</b></span>
+            <p class="card_description">This folder contains simple python applications such as an updated version <br>of a currency converter and a random password generator.<br><br>Click the Github Icon for the code.<br><br></p>
+    </div>
+    </article>
+
+  <a href="https://github.com/mnsling/Python-Projects" target="_blank">
+    <img class="gthb1" src="C:\Users\GURL\Desktop\Do not delete!\Portfolio Website\Icons\github.png">
+  </a>
+
+  <!--card #2-->
+  <article class="card2">
+    <div class="temporary_text">ㅤ04/25/23</div>
+
+  <div class="card_content2">
+      <span class="card_title2">Machine Problems</span>
+          <span class="card_subtitle2"><b>Java</b></span>
+          <p class="card_description2">Developed a solution in Java to compute <br>for the students final QPI and a calculator<br> that computes the employees final Net <br>Pay.<br><br>Click the Github Icon for the code.<br><br></p>
+  </div>
+  </article>
+
+<a href="https://github.com/mnsling/Java-Projects" target="_blank">
+  <img class="gthb2" src="C:\Users\GURL\Desktop\Do not delete!\Portfolio Website\Icons\github.png">
+</a>
+
+<!--card #3-->
+<article class="card3">
+  <div class="temporary_text">ㅤ05/27/23</div>
+
+<div class="card_content3">
+    <span class="card_title3">My Personal Portfolio</span>
+        <span class="card_subtitle3"><b>HTML, CSS, Javascript</b></span>
+        <p class="card_description3">A website that contains everything that <br>you should know about me. All of my <br>personal achievements, skills and <br>projects are include<br><br>Click the Github Icon for the code.<br><br></p>
+</div>
+</article>
+
+<a href="https://github.com/mnsling/Java-Projects" target="_blank">
+<img class="gthb3" src="C:\Users\GURL\Desktop\Do not delete!\Portfolio Website\Icons\github.png">
+</a>
+  </body>
+</html>
